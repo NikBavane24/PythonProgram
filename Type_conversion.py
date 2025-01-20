@@ -11,21 +11,21 @@ print(int(10.2))
 print(int(True))
 print(int(False))
 #print(int("One"))
-
+print("                                                    ")
 print("#float")
 print(float(10))
 print(float(10.2))
 print(float(True))
 print(float(False))
 #print(float("One"))
-
+print("                                                    ")
 print("#complex")
 print(complex(10))
 print(complex(10.2))
 print(complex(True))
 print(complex(False))
 #print(complex("One"))
-
+print("                                                    ")
 print("#boolean")
 print(bool(0))
 print(bool(10))
@@ -34,3 +34,7 @@ print(bool(True))
 print(bool(False))
 print(bool(0+0j))
 #print(boolean("One"))
+
+
+a=10.2343
+print(int(a))
