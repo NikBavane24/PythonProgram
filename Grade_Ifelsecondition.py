@@ -1,6 +1,6 @@
 
 
-Marks=51
+Marks=int(input("Marks="))
 if (Marks>=91 and Marks<=100):
     print("Grade A+")
 

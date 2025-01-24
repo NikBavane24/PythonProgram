@@ -10,4 +10,4 @@ def Print_Multipleparameter(greeting, name):
     print(greeting,name)
 
 
-#Print_Multipleparameter("GM","Nikhil")
+Print_Multipleparameter("GM","Nikhil")

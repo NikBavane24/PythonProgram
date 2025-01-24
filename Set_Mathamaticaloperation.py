@@ -14,8 +14,8 @@ print(a & b)
 
 #Diffrence
 print(a.difference(b))
-print(a - b)
-print(b.difference(a))
+#print(a - b)
+#print(b.difference(a))
 print(b - a)
 
 #Symettric_difference

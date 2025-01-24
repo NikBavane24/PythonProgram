@@ -6,5 +6,5 @@ b="programming"
 c=a+" "+b
 print(c)
 
-d=a * 2
+d=a * 3
 print(d)

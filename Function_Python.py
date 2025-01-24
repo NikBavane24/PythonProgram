@@ -1,5 +1,4 @@
-from Fuction_arguments import Print_Hello
-
+from Fuction_arguments import Print_Hello, Print_Multipleparameter
 
 
 #collection of python statement to perform an operation
@@ -20,3 +19,4 @@ def addition():
 Print_name()
 addition()
 Print_Hello("Java")
+Print_Multipleparameter("GN","Vishal")

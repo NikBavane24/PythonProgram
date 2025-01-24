@@ -1,7 +1,7 @@
 a=100
 b=20.123
 c=b+a
-print("Sum= ",c)
+print("Sum=",c)
 
 d,e,f=1,2,3
 print(d)
