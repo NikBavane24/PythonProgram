@@ -1,14 +1,15 @@
 
 
-String="Madam"
+String="madaM"
 
-String1=""
+#String1=""
 
-for i in String:
-    String1=i+String1
-    print(String1)
+String2=String[::-1]
+#for i in String:
+    #String1=i+String1
+    #print(String1)
 
-if String==String1:
+if String==String2:
     print("String is Palindrome")
 
 else:
