@@ -8,13 +8,13 @@ while i<len(a):
     i=i+1
     if i==8:
         break
-
+print("--------------------------")
 for i in a:
 
     if i==5:
         continue
     print(i)
-
+print("********************************")
 n=len(a)
 for i in range(n):
     print(i,":",a[i])

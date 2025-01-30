@@ -6,5 +6,5 @@ print(a,type(a))
 a[1]="C++"
 print(a,type(a))
 
-a[5]="Database"
+a[5,6]="Database","QA"
 print(a,type(a))

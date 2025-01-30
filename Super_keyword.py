@@ -1,7 +1,7 @@
 import Super_keyword
 
 
-class Parent():
+class Parent:
     def Parent1(self):
         print("Parent class implementation")
 

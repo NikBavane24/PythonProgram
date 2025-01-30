@@ -6,7 +6,7 @@
 a={}
 print(a,type(a))
 
-a={1:"Python",2:"Java",3:"JavaScript"}
+a={1:"Python",2:"Java",3:"JavaScript",4:10}
 print(a,type(a))
 
 #Using dict()

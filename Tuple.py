@@ -4,8 +4,9 @@ a=[1,2,3]
 print(type(a))
 
 #tuple
-a=(1,2,3)
+a=(1,2,3,3,"a")
 print(type(a))
+print(a)
 
 a=(1,2,3)
 print(type(a))
