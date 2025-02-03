@@ -15,7 +15,7 @@ print(a)
 
 a.discard(1)
 print(a)
-a.discard(9)
+a.discard(12)
 print(a)
 
 #Clear
