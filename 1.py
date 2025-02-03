@@ -4,6 +4,7 @@ class Dog:
     def __init__(self, name, age):
         self.name = name  # Instance attribute
         self.age = age  # Instance attribute
+        print("Your name is",name,"age is",age)
 
 # Creating an object of the Dog class
 dog1 = Dog("Buddy", 3)
