@@ -10,7 +10,7 @@ print(b | a)
 
 #Intersection
 print(a.intersection(b))
-print(a & b)
+print(b & a)
 
 #Diffrence
 print(a.difference(b))
@@ -21,3 +21,6 @@ print(b - a)
 #Symettric_difference
 print(a.symmetric_difference(b))
 print(a ^ b)
+
+
+
