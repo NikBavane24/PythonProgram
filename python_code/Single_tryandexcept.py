@@ -4,8 +4,8 @@
 try:
     a=1/0
     print(a)
-except ZeroDivisionError:
-    print("Exception occurs")
+except Exception as e:
+    print("Exception occurs",e)
 
 
 def Division(x,y):
