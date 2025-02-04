@@ -4,7 +4,7 @@ from Inheritance import Cl1
 
 class Cl2(Cl1):
     def M2(self):
-        print("Method2")
+        print("Method M2")
 
 
 
