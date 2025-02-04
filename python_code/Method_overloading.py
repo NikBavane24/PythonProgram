@@ -5,9 +5,9 @@ def product(a, b):
     print(p)
 
 
-def product(a, b, c):
-    p = a * b*c
-    print(p)
+def product1(d, e, f):
+    z = d * e * f
+    print(z)
 
-#product(4, 5)
-product(2,3,4)
+product(4, 5)
+product1(2,3,4)
