@@ -10,6 +10,6 @@ print(b/a)
 
 print(b%a)
 
-print(3//2)
+print(11//2)
 
 print(10**4)

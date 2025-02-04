@@ -8,4 +8,4 @@ for i,j in a.items():
 
 print("                                  ")
 for i in a:
-    print(i," ",a[i])
+    print(i,":",a[i])

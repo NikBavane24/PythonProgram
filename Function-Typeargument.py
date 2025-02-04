@@ -18,7 +18,7 @@ def user_info_default(name,age=10):
     print("Hello",name,"Your age is :",age)
 
 user_info_default("Nikhil")
-user_info_default("Nikhil",20)
+user_info_default("Nikhil", 20)
 
 #variable length arguments
 def greet(*name):
