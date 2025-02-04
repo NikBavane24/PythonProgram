@@ -1,4 +1,4 @@
-from String_datatype import string
+
 
 a=["abcd","wxyz"]
 
