@@ -1,6 +1,6 @@
 
 
-values=input("Input some comma separeted values:")
+values=input("Input some comma separated values:")
 
 list=values.split()
 

@@ -6,7 +6,7 @@ class Employee:
         self.id=id
         self.company = company
         self.salary = salary
-        print("Parameter as name and id,company and salary")
+        print("Parameter as name",name,"id is", id,"company name",company,"Salary is", salary)
 
 
 e1=Employee(name="nikhil",id=10)
