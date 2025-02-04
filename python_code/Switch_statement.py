@@ -1,27 +1,29 @@
 
 
 class week:
-    def case_1(self):
+    def day_1(self):
         return "Monday"
 
-    def case_2(self):
+    def day_2(self):
         return "Tuesday"
 
-    def case_3(self):
+    def day_3(self):
         return "Wednesday"
 
-    def case_4(self):
+    def day_4(self):
         return "Thursday"
 
-    def case_5(self):
+    def day_5(self):
         return "Friday"
 
-    def case_6(self):
+    def day_6(self):
         return "Saturday"
 
-    def case_7(self):
+    def day_7(self):
         return "Sunday"
 
 my_switch=week()
 
-print(my_switch.case_7())
+print(my_switch.day_1())
+
+print(my_switch.day_4())

@@ -2,8 +2,14 @@
 
 
 num=int(input("Enter the number="))
-if num%3==0:
-    print("Last digit is divisible by 3")
+sum=0
+
+for digit in str(num):
+    sum += int(digit)
+
+print(sum)
+if sum%3==0:
+    print("Number is divisible by 3")
 
 else:
-    print("Last digit is not divisible by 3")
+    print("Number is not divisible by 3")

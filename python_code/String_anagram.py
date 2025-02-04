@@ -1,14 +1,18 @@
 
 
-a="listen"
+a="break"
 
-b="silent"
+b="bekar"
 
 c=list(a)
+
 c.sort()
+print(c)
 
 d=list(b)
+
 d.sort()
+print(d)
 
 if c==d:
     print("Both thr string an anagram")
