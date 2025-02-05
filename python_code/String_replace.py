@@ -8,3 +8,9 @@ print(b)
 res=re.sub(r'\d'," ",a)
 
 print(res)
+
+c=re.split(" ",a)
+print(type(c),c)
+
+d=a.split()
+print(d)

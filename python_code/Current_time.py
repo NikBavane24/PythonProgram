@@ -11,6 +11,9 @@ print("Time now :", current_time)
 yesterday = current_time - datetime.timedelta(1)
 print("Yesterday time :",yesterday)
 
+twodaysbefore= current_time-datetime.timedelta(2)
+print("two days before:",twodaysbefore)
+
 # Get Tomorrow
 tomorrow = current_time + datetime.timedelta(1)
 print("Tomorrow time :",tomorrow)

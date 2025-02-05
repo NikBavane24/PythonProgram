@@ -2,7 +2,7 @@ import math
 
 pi=math.pi
 
-r=10
+r=int(input("Redius of circle="))
 
 Sphere_Volume=4/3*pi*r*r*r
 

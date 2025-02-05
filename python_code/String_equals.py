@@ -1,6 +1,12 @@
-
+import re
 
 a="Java"
+
+Lcase=re.findall(r"[a-z]",a)
+print(Lcase)
+
+Ucase=re.findall(r"[A-Z]",a)
+print(Ucase)
 
 b="java"
 

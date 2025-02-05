@@ -6,7 +6,8 @@ print(type(str_lst),str_lst)
 
 
 
-a = ['Geeks', 'for', 'Geeks']
+
+a = ['Geeks', 'for', 'morning']
 res = ' '.join(a)
 print(type(res),res)
 
@@ -20,3 +21,11 @@ for s in a:
 # Remove trailing space
 res = res.strip()
 print(res)
+
+
+q=["a","b","c","d","e","f","g"]
+w= " ".join(q)
+print(type(w),w)
+
+z=tuple(q)
+print(type(z),z)

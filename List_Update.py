@@ -30,7 +30,7 @@ print(a)
 a.pop()
 print(a)
 
-a.pop(0)
+a.pop(2)
 print(a)
 
 a.clear()

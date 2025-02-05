@@ -14,6 +14,9 @@ elif city1=="agra":
 elif city1=="jaipur":
     print("Monument: Jal Mahal")
 
+elif city1=="kolhapur":
+    print("Monument: Mahalaxmi Temple")
+
 else:
     print("Enter the correct city name")
 

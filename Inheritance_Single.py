@@ -11,4 +11,4 @@ class Employee(Person):  # Employee inherits from Person
         self.salary = salary
         print("Name",name,"Salary",salary)
 
-#c1=Employee("Shubham",10000)
+c1=Employee("Shubham",10000)

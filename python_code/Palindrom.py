@@ -1,6 +1,6 @@
 
 
-String="madaM"
+String="madam"
 
 #String1=""
 

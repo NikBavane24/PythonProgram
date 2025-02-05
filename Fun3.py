@@ -6,3 +6,4 @@ def fun3(greeting,name):
 
 fun2("Nikhil")
 fun3("GA","Nikhil")
+

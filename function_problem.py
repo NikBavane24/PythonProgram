@@ -3,7 +3,7 @@
 
 def List1(self):
     a=["abcd","xyz","lmn"]
-    b=list[len(a[0]),len(a[1]),len(a[2])]
+    b=len(a[0]),len(a[1]),len(a[2])
     c=len(a[1])
     d=len(a[2])
     print(b)

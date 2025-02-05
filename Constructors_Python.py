@@ -17,3 +17,9 @@ c1.add()
 
 c2=Class1(200,300)
 c2.add()
+
+class Constructor:
+    def __init__(self):
+        print("Constructor run")
+
+c3=Constructor()

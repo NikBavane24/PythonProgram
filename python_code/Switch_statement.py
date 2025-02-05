@@ -22,8 +22,6 @@ class week:
     def day_7(self):
         return "Sunday"
 
-my_switch=week()
+my_switch=week
 
-print(my_switch.day_1())
-
-print(my_switch.day_4())
+print(my_switch.day_4(self=""))
