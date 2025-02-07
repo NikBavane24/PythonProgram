@@ -4,6 +4,7 @@ class Parent():
     # Constructor
     def __init__(self):
         self.value = "Inside Parent"
+        #print("Inside Parent")
 
     # Parent's show method
     def show(self):
@@ -16,9 +17,11 @@ class Child(Parent):
     def __init__(self):
         super().__init__()  # Call parent constructor
         self.value = "Inside Child"
+        #print("Inside Child")
 
     # Child's show method
     def show(self):
+        super().show()
         print(self.value)
 
     # Driver's code
