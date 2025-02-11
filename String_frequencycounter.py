@@ -1,6 +1,3 @@
-
-
-
 from collections import Counter
 
 # Input string

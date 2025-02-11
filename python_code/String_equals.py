@@ -3,10 +3,10 @@ import re
 a="Java"
 
 Lcase=re.findall(r"[a-z]",a)
-print(Lcase)
+print(Lcase,len(Lcase))
 
 Ucase=re.findall(r"[A-Z]",a)
-print(Ucase)
+print(Ucase,len(Ucase))
 
 b="java"
 
@@ -24,5 +24,5 @@ print(d)
 e=c[::-1]
 print(e)
 
-f=c[-7::1]
+f=c[-12::1]
 print(f)

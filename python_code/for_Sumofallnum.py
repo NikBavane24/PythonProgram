@@ -10,7 +10,7 @@ for i in range(given_rang):
 print(sum)
 
 multi=1
-for i in range(1,11):
+for i in range(1,7):
      multi*=i   #multi=multi+i
      #print(sum)
 

@@ -8,8 +8,8 @@ class Cl2(Cl1):
 
 
 
-o1=Cl1
-o2=Cl2
+#o1=Cl1()
+o2=Cl2()
 
-o2.M2(self='')
-o2.M1(self='')
+o2.M2()
+o2.M1()

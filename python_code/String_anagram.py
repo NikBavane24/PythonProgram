@@ -19,3 +19,5 @@ if c==d:
 
 else:
     print("Both thr string not an anagram")
+
+

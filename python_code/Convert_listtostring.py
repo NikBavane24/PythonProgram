@@ -1,6 +1,7 @@
 
 
 lst = [1, 2, 3, 4, 5]
+print(type(lst),lst)
 str_lst = list(map(str, lst))
 print(type(str_lst),str_lst)
 

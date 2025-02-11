@@ -1,5 +1,5 @@
 
-#Syntax- def --init__(self):
+#Syntax- def __init__(self):
 #    Constructor body
 
 class Class1:

@@ -16,4 +16,4 @@ def subtraction(num1,num2):
         print("Program is completed")
 
 
-print(subtraction(20,"a"))
+print(subtraction(20,10))
