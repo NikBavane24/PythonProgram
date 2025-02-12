@@ -1,6 +1,7 @@
 
 
-a="madam"
+a="madaM"
+a=a.lower()
 
 b=""
 

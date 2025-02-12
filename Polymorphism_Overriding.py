@@ -21,7 +21,7 @@ class Child(Parent):
 
     # Child's show method
     def show(self):
-        super().show()
+        #super().show()
         print(self.value)
 
     # Driver's code

@@ -18,7 +18,7 @@ print("f=",f)
 b=a[::-1]
 print(b)
 
-c=list(a)
+c=list(a.split())
 print(c)
 c.sort()
 print(c)

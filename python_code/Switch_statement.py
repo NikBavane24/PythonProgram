@@ -24,4 +24,4 @@ class week:
 
 my_switch=week
 
-print(my_switch.day_4(self=""))
+print(my_switch.day_3(self=""))
