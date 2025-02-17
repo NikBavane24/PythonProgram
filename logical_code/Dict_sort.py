@@ -1,6 +1,9 @@
 
 
-a={1:"a",2:"b",3:"c",4:"f",5:"e",6:"d"}
+a={1:"a",2:"b",3:"c",6:"f",5:"e",4:"d"}
 
-b=sorted(a.values())
+b=sorted(a.keys())
 print(b)
+
+c=sorted(a.values())
+print(c)

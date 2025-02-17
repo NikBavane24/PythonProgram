@@ -9,7 +9,7 @@ print("d1=",d1)
 d3=d1 | d2
 print("d3=",d3)
 
-data_list = [{"name": "Nandini", "age": 20},
+data_list = [{"name": "Nandini", "age": 21},
              {"name": "Manjeet", "age": 20},
              {"name": "Nikhil", "age": 19}]
 print(data_list)
