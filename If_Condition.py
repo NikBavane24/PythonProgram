@@ -2,7 +2,7 @@
 
 # IF Condition
 
-age=int(input("Enter your age= "))
+age=float(input("Enter your age= "))
 
 if age>=18:
     print("You are eligible for vote")

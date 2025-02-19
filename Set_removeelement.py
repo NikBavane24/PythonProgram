@@ -7,6 +7,9 @@ print(a)
 print(a.pop())
 print(a)
 
+print(a.pop())
+print(a)
+
 #remove(x)
 a.remove(8)
 print(a)

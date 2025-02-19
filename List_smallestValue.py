@@ -6,7 +6,13 @@ a=[]
 for i in list1:
     if i<list1[0]:
         a.insert(0,i)
+        a.sort()
 
 
 
-print(a[-1])
+print(a[0])
+
+b=list1.sort()
+c=list1[0]
+print(c)
+

@@ -14,7 +14,8 @@ except Exception as e:
 
 f=a[10:16]
 print("f=",f)
-
+g=f[::-1]
+print(g)
 b=a[::-1]
 print(b)
 

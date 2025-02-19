@@ -12,7 +12,10 @@ print(a==c)
 x=["python","programming"]
 y=["PYTHON","PROGRAMMING"]
 z=["python","programming"]
-
+w=" ".join(y)
+print(w)
+y=list(w.lower().split())
+print(y)
 print(x==y)
 print(x==z)
 

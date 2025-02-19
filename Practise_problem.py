@@ -20,4 +20,12 @@ for word in c:
         print(word)
 print(d)
 
+count=0
+
+for i in c:
+    count+=1
+
+print(count)
+
+
 

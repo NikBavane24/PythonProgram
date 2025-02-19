@@ -10,3 +10,7 @@ def add(a,b):
 
 def subtract(a,b):
     return a-b
+
+print(add(100,50))
+
+print(subtract(100,50))
