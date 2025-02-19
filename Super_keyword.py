@@ -11,12 +11,11 @@ class Child(Parent):
 
     def child1(self):
         print("Child method implementation from child class")
-        Super_keyword.Parent
+        Super_keyword.Parent.Parent1(self)
 
-o1=Child()
-o2=Parent()
-o1.Parent1()
-o1.child1()
+
+o2=Child()
+o2.child1()
 o2.Parent1()
 
 

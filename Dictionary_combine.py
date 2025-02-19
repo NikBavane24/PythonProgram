@@ -12,3 +12,6 @@ print(c,type(c))
 listc=list(c.items())
 
 print(listc,type(listc))
+
+a.update(b)
+print(a)

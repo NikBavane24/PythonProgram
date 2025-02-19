@@ -1,7 +1,7 @@
 
 
 
-a="Cricket is the famous game. Cricket help me to be physical fit and famous"
+a="Cricket is the famous game Cricket help me to be physical fit and famous"
 
 b=a.split()
 print(type(b),b)
@@ -16,3 +16,9 @@ d=a[0:7]
 print(d)
 e=d[::-1]
 print(e)
+
+
+f=a[35:39]
+print(f)
+g=f[::-1]
+print(g)

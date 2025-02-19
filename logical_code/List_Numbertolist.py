@@ -2,4 +2,6 @@
 
 n=1234567890
 
-print(list(map(int,str(n))))
+a=list(map(int,str(n)))
+
+print(type(a),a)

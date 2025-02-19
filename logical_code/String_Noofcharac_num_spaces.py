@@ -1,7 +1,7 @@
 
 
 
-a="@#$%Cricket is the famous game on Cricket we have 1 2 3 4 6 runs and 100 runs is important"
+a="@#$%Cricket is the famous game on Cricket we have @!^$ 1 2 3 4 6 runs and 100 runs is important"
 e=len(a)
 print(e)
 b=0

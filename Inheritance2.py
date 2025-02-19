@@ -3,6 +3,9 @@ from Inheritance import Cl1
 
 
 class Cl2(Cl1):
+    def __init__(self):
+        super().__init__()
+        print("Constructor of CL2")
     def M2(self):
         print("Method M2")
 

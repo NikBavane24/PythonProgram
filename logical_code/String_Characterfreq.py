@@ -10,4 +10,7 @@ print(freq)
 
 max_char=max(freq,key=freq.get)
 
-print(max_char)
+print("Maximum time character repeats",max_char)
+
+min_char=min(freq,key=freq.get)
+print("Minimum time character repeats",min_char)

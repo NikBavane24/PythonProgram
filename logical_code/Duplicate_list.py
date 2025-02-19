@@ -4,6 +4,7 @@ a = [1, 2, 3, 1, 2, 4, 5, 6, 5]
 
 # Initialize an empty set to store seen elements
 s = set()
+print(set(a))
 
 # List to store duplicates
 dup = []
@@ -15,3 +16,4 @@ for n in a:
         s.add(n)
 
 print(dup)
+print(s)

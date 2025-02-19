@@ -20,7 +20,9 @@ class execution(addition):
 
 o2=execution()
 
-
-o2.add(10,15)
+o2.add(100,50)
 o2.add1()
+
+
+
 

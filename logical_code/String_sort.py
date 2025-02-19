@@ -2,7 +2,7 @@
 
 s="Cricket is the famous game. Cricket help me to be physical fit and famous"
 
-a=s.split()
+a=s.lower().split()
 d=a[0][::-1]
 print(type(d),d)
 a.sort()

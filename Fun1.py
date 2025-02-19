@@ -1,9 +1,9 @@
 
 
-def fun1():
-    print("Function1")
+def fun1(name):
+    print("Function1",name)
 
-fun1()
+fun1("Ram")
 
 def fun2(*name):
     for i in name:
