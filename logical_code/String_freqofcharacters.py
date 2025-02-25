@@ -1,5 +1,3 @@
-from collections import Counter
-
 
 
 s="Cricket is the famous game. Cricket help me to be physical fit and famous"

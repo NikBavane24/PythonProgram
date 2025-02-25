@@ -3,6 +3,7 @@
 a=["abcd","wxyz"]
 
 a.reverse()
+print(a)
 b=a[0]
 print(b)
 

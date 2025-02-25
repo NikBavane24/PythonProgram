@@ -5,3 +5,6 @@ dic2={"key2":"vol2"}
 
 dict3=dic1 | dic2
 print(dict3)
+
+dic1.update(dic2)
+print(dic1)

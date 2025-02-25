@@ -18,3 +18,5 @@ def Method1():
     print("Method1")
 
 Method1()
+for i in range(3):
+    Method1()

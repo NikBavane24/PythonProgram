@@ -12,6 +12,6 @@ def Print_Multipleparameter(greeting, name):
 def value(a,b):
     print("Values of a",a,"and b",b)
 
-
+Print_Hello("Shaurya")
 Print_Multipleparameter("GM","Nikhil")
 value(10,20)

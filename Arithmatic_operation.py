@@ -13,3 +13,5 @@ print(b%a)
 print(11//2)
 
 print(10**4)
+
+print(25**0.5)

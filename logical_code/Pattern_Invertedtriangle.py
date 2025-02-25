@@ -8,3 +8,11 @@ for i in range (n,0,-1):
 
 for i in range (0,n+1):
     print((n-i)* " "+i * "*")
+
+print("-------------------------------------------------")
+
+for i in range (n,0,-1):
+    print(i * "*"+(n-i)* " ")
+
+for i in range (0,n+1):
+    print(i * "*"+(n-i)* " ")

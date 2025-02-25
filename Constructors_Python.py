@@ -4,7 +4,7 @@
 
 class Class1:
     def __init__(self,a,b):
-        print("Class1")
+        print("Constructor")
         self.a=a
         self.b=b
 

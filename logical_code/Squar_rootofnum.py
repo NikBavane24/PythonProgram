@@ -1,8 +1,8 @@
 
 
 
-n=float(input("Enter the value="))
+n=int(input("Enter the value="))
 
 Sqr_rt=n**0.5
 
-print(Sqr_rt)
+print(f"Square root of {n}=",Sqr_rt)

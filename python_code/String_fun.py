@@ -7,17 +7,21 @@ d=0
 for i in a:
     if i.isalpha():
         b=b+1
-print(b)
+print("Alphabet character=",b)
 
 for i in a:
     if i.isspace():
         c=c+1
-print(c)
+print("No of spaces=",c)
 
 for i in a:
     if i.isnumeric():
         d=d+1
-print(d)
+print("No of numeric values=",d)
+
+spl_char=len(a)-b-c-d
+print("No of special character=",spl_char)
+
 
 lower_case=re.findall(r"[a-z]",a)
 print(len(lower_case),lower_case)

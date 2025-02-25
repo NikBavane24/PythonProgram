@@ -4,8 +4,8 @@
 num=int(input("Enter the number="))
 sum=0
 
-for digit in str(num):
-    sum += int(digit)
+for i in str(num):
+    sum += int(i)
 
 print(sum)
 if sum%3==0:

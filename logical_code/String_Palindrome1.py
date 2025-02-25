@@ -1,6 +1,6 @@
 
 
-string1="radar"
+#string1="radar"
 def palindrome(string1):
     string1=string1.lower()
     string2=string1[::-1]
@@ -9,5 +9,5 @@ def palindrome(string1):
     else:
         print("Both the strings are not Palindrome")
 
-palindrome("radar")
+palindrome("radaR")
 

@@ -18,6 +18,9 @@ print("two days before:",twodaysbefore)
 tomorrow = current_time + datetime.timedelta(1)
 print("Tomorrow time :",tomorrow)
 
+dayaftertomorrow = current_time + datetime.timedelta(2)
+print("day after tomorrow :",dayaftertomorrow)
+
 
 x = datetime.datetime.now()
 

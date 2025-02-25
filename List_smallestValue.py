@@ -16,3 +16,17 @@ b=list1.sort()
 c=list1[0]
 print(c)
 
+Min=min(list1)
+print(Min)
+z=[]
+for i in list1:
+    if i>list1[0]:
+        z.insert(0,i)
+
+print(z[0])
+
+list1.sort()
+print(list1[-1])
+
+y=max(list1)
+print(y)

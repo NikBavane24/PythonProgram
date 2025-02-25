@@ -14,4 +14,4 @@ class method_overloading:
         print("method1 with 2 parameter")
 
 c1=method_overloading()
-c1.method1(1,"N")
+c1.method1(1,2)

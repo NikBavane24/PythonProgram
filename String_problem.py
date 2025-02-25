@@ -27,5 +27,4 @@ Specialchar= b-c-d-e
 print("Special_char",Specialchar)
 
 
-cap=re.findall("A_Z")
-print(cap)
+

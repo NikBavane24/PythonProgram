@@ -14,3 +14,6 @@ print("Maximum time character repeats",max_char)
 
 min_char=min(freq,key=freq.get)
 print("Minimum time character repeats",min_char)
+
+Char_e=freq.get("e")
+print(Char_e)

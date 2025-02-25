@@ -1,7 +1,10 @@
 
 
 Marks=int(input("Marks="))
-if (Marks>=91 and Marks<=100):
+if Marks>100:
+    print("Wrong value Entered")
+
+elif (Marks>=91 and Marks<=100):
     print("Grade A+")
 
 elif Marks>=81 and Marks<=90:

@@ -1,6 +1,6 @@
 
 
-a = [10, 24, 76, 23, 12]
+a = [10, 24, 76, 23, 12,4]
 
 largest=max(a)
 print(largest)

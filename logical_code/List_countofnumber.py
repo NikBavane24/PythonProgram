@@ -7,3 +7,6 @@ for i in a:
     if i==2:
         b+=1
 print("Count of value 2=",b)
+
+c=a.count(2)
+print(c)

@@ -13,6 +13,7 @@ b=a.replace("l","")
 print(b)
 
 c= len(a)//2
+print("C value=",c)
 d=a[:c].upper()+a[c:]
 print(d)
 

@@ -1,6 +1,6 @@
 from collections import Counter
 
-a="A paragraph is a group of sentences that develops a single 123456789 idea It can !@#$5%^6 be a section of a longer piece of writing or it can be a short composition by itself"
+a="a paragraph is a group of sentences that develops a single 123456789 idea It can !@#$5%^6 be a section of a longer piece of writing or it can be a short composition by itself"
 b=a.replace(" ","_")
 print(b)
 Freq= Counter(b)
@@ -10,7 +10,7 @@ for i in b:
     if i=="_":
         c+=1
 
-print(c)
+print("Character c comes this much times=",c)
 
 d=a.split()
 e=a[1]
@@ -24,3 +24,6 @@ print(Freq)
 
 Max=max(Freq,key=Freq.get)
 print(Max)
+
+Min=min(Freq,key=Freq.get)
+print(Min)

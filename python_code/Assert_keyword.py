@@ -1,7 +1,7 @@
 
 
-age=int(input("Age ="))
+age=int(input("age ="))
 
-assert 0<age<65
+assert 0<age<=65
 
 print("Age",age)
