@@ -34,5 +34,21 @@ Wait.until(expected_conditions.presence_of_element_located((By.CSS_SELECTOR,".pr
 #time.sleep(8)
 print(driver.find_element(By.CLASS_NAME,"promoInfo").text)
 
+prices=driver.find_elements(By.XPATH,"//td[5]/p")
+Total=0
+for i in prices:
+    Total+=int(i.text)
+
+Total1=int(driver.find_element(By.XPATH,"//span[@class='totAmt']").text)
+print(Total,type(Total))
+print(Total1,type(Total1))
+assert Total1==Total
+
+Dic_total=driver.find_element(By.XPATH,"//span[@class='discountAmt']").text
+Dic_total1=float(Dic_total)
+print(Dic_total1,type(Dic_total1))
+
+assert Total>Dic_total1
+
 
 time.sleep(2)
