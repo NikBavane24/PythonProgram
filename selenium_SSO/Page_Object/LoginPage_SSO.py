@@ -23,7 +23,7 @@ class LoginPage():
         self.driver.find_element(*self.Email_address).send_keys("testmiq.qa@ces-ltd.com")
         self.driver.find_element(*self.Password).send_keys("Test@1234")
         self.driver.find_element(*self.Continue_button).click()
-        self.driver.find_element(*self.otp).send_keys("377642")
+        self.driver.find_element(*self.otp).send_keys("632965")
         self.driver.find_element(*self.Continue).click()
         self.driver.find_element(*self.AdminPanel_button).click()
 
