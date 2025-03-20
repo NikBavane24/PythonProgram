@@ -1,14 +1,14 @@
 a=10
 b=22
-print(a+b)
+print("Addition=",a+b)
 
-print(b-a)
+print("Subtraction=",b-a)
 
-print(a*b)
+print("Multiplication",a*b)
 
-print(b/a)
+print("Division=",b/a)
 
-print(b%a)
+print("Modulus=",b%a)
 
 print(11//2)
 

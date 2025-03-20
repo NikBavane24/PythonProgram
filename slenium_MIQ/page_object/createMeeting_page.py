@@ -1,5 +1,7 @@
 import time
 from selenium.webdriver.common.by import By
+
+from slenium_MIQ.page_object.cesGoldArchive_page import cesGoldArchive
 from slenium_MIQ.page_object.createReport_page import CreateReport
 
 class CreateMeeting:
@@ -12,7 +14,7 @@ class CreateMeeting:
         self.meetingType = (By.XPATH, "(//span[@class='k-input-value-text'])[3]")
         self.selectMeetingType = (By.XPATH, "(//li[@role='option'])[3]")
         self.subType = (By.XPATH, "(//span[@class='k-input-value-text'])[4]")
-        self.selectSubType = (By.XPATH, "(//li[@role='option'])[1]")
+        self.selectSubType = (By.XPATH, "//span[.='Bulk and Regional Tariff Design']")
         self.selectSubType1 = (By.XPATH, "(//li[@role='option'])[2]")
         self.topic=(By.XPATH,"(//input[@role='combobox'])[3]")
         self.selectTopic = (By.XPATH, "(//li[@role='option'])[1]")
@@ -50,8 +52,8 @@ class CreateMeeting:
         current_url = self.driver.current_url
         print("Current URL:", current_url)
 
-        report_page=CreateReport(self.driver)
-        return report_page
+        createReport_page=CreateReport(self.driver)
+        return createReport_page
 
     def meetingSearch(self):
         self.driver.get("https://miq.qa.ces-ltd.com/admin/meetings")
@@ -60,11 +62,13 @@ class CreateMeeting:
         self.driver.find_element(*self.topicSearch).click()
         self.driver.find_element(*self.selectTopic).click()
         self.driver.find_element(*self.findSearch).click()
+        time.sleep(3)
 
 
     def updateMeeting(self):
         self.driver.get("https://miq.qa.ces-ltd.com/admin/meetings")
         self.driver.find_element(*self.selectMeeting).click()
+        time.sleep(2)
         self.driver.find_element(*self.editButton).click()
         time.sleep(1)
         self.driver.find_element(*self.subType).click()
@@ -76,11 +80,16 @@ class CreateMeeting:
         self.driver.find_element(*self.description).send_keys("Updated")
         self.driver.find_element(*self.submitButton).click()
 
-    def deleteMeeting(self):
+    def meetingDelete(self):
         self.driver.get("https://miq.qa.ces-ltd.com/admin/meetings")
         self.driver.find_element(*self.selectMeeting).click()
+        time.sleep(2)
         self.driver.find_element(*self.deleteMeeting).click()
         self.driver.find_element(*self.confirmButton).click()
+        time.sleep(2)
+
+        cesGoldArchive_page = cesGoldArchive(self.driver)
+        return cesGoldArchive_page
 
 
 

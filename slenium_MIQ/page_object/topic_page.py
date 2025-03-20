@@ -20,8 +20,9 @@ class MeetingTopic:
 
 
     def createTopic(self):
-        self.driver.find_element(*self.openMenu).click()
-        self.driver.find_element(*self.openMeetingTopicPage).click()
+        #self.driver.find_element(*self.openMenu).click()
+        #self.driver.find_element(*self.openMeetingTopicPage).click()
+        self.driver.get("https://miq.qa.ces-ltd.com/admin/meeting-topics")
         time.sleep(2)
         self.driver.refresh()
         time.sleep(2)

@@ -8,10 +8,11 @@ def test_topicPage(browserInstance):
     driver=browserInstance
 
     loginPage=LoginPage(driver)
-    topic_page=loginPage.Login()
-    topic_page.createTopic()
-    topic_page.updateTopic()
-    topic_page.TopicDelete()
+    meetingTypes_page=loginPage.Login()
+    meetingTypes_page.createMeetingType()
+    #meetingTypes_page.updateMeetingSubType()
+    #meetingTypes_page.updateMeetingType()
+    #meetingTypes_page.updateMeetingSubType()
 
 
 

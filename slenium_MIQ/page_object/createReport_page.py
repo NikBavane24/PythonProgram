@@ -25,6 +25,10 @@ class CreateReport:
         self.editReportButton = (By.XPATH, "//span[.='Edit Report']")
         self.titleReport=(By.CSS_SELECTOR,"input[placeholder='Enter Report Title']")
 
+        self.selectMeeting = (By.XPATH, "//div[@row-id='0']")
+        self.reportDeleteButton=(By.XPATH,"//ces-button[@title='Delete']")
+        self.confirmDelete=(By.XPATH,"//ces-button[@label='Confirm']")
+
 
     def Report(self):
         time.sleep(2)
@@ -58,15 +62,25 @@ class CreateReport:
         self.driver.find_element(*self.selectReport).click()
         time.sleep(5)
         self.driver.find_element(*self.editReportButton).click()
-        self.driver.find_element(*self.titleReport).send_keys("AESO Bulk and Regional Tariff Design Version2")
+        self.driver.find_element(*self.titleReport).send_keys(" Version2")
         actions = ActionChains(self.driver)
         actions.send_keys(Keys.PAGE_DOWN).perform()
         time.sleep(1)
         self.driver.find_element(*self.publishReportButton).click()
         self.driver.find_element(*self.noEmailPage).click()
 
-        cesGoldArchive_page=cesGoldArchive(self.driver)
-        return cesGoldArchive_page
+    def reportDelete(self):
+        self.driver.get("https://miq.qa.ces-ltd.com/admin/meetings")
+        self.driver.find_element(*self.selectMeeting).click()
+        time.sleep(2)
+        actions = ActionChains(self.driver)
+        actions.send_keys(Keys.PAGE_DOWN).perform()
+        time.sleep(2)
+        self.driver.find_element(*self.reportDeleteButton).click()
+        self.driver.find_element(*self.confirmDelete).click()
+
+
+
 
 
 
