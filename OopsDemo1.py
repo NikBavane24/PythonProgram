@@ -11,6 +11,6 @@ class A:
     def __init__(self):
         print("I am called automatically when constructor is created")
 
-o =A()                  #syntax to create an object
-o.method()
-print(o.a)
+#o =A()                  #syntax to create an object
+#o.method()
+#print(o.a)

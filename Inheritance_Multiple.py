@@ -6,7 +6,7 @@ from Inheritance_Single import Employee
 class Job:
     def __init__(self, role):
         self.role = role
-        print("role", role)
+        print("role=", role)
 
 class EmployeePersonJob(Employee, Job):  # Inherits from both Employee and Job
     def __init__(self, name, salary,role):
