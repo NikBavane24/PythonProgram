@@ -9,3 +9,4 @@ print(t,type(t))
 w,x,y,z=t
 print(w)
 print(z)
+print(t)

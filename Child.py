@@ -1,6 +1,5 @@
 from OopsDemo import Cal
 
-
 class Child(Cal):
     d=200
     def getvalue2(self):

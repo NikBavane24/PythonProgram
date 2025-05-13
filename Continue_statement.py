@@ -1,5 +1,4 @@
 
-
 for i in range(1,11):
 
     if i==5:
@@ -9,13 +8,13 @@ for i in range(1,11):
 
 print("xxxxxxxxxxxxxxxxxxxxxxx")
 
-c=0
+c=-1
 while c<=10:
+    c = c + 1
     if c==7:
         continue
     else:
         print("c",c)
-    c=c+1
 
 print("xxxxxxxxxxxxxxxxxxxxxxx")
 

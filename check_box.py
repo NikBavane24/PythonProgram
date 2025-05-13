@@ -16,3 +16,4 @@ driver.find_element(By.XPATH, "//input[@value='option3']").click()
 assert driver.find_element(By.XPATH, "//input[@value='option3']").is_selected()
 
 time.sleep(2)
+driver.quit()

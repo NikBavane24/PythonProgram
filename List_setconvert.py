@@ -10,3 +10,7 @@ e=c.union(d)
 f=c.intersection(d)
 print(e)
 print(f)
+g=a*2
+print("g=",g)
+h=a+b
+print("h=",h)

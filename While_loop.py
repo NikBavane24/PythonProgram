@@ -7,4 +7,4 @@ else:
     print("out of while loop")
 
 while 0:
-    print(1)
+    print("1")

@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 
@@ -12,5 +14,8 @@ def setup(request):
 
     driver.get("https://rahulshettyacademy.com/angularpractice/")
     request.cls.driver = driver
+    time.sleep(5)
     yield
     driver.close()
+
+setup()

@@ -4,7 +4,7 @@ print("Addition=",a+b)
 
 print("Subtraction=",b-a)
 
-print("Multiplication",a*b)
+print("Multiplication=",a*b)
 
 print("Division=",b/a)
 
