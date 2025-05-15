@@ -7,4 +7,6 @@ for x,y in zip(a,b):
     print(x,y)
 
 c=a+b
-print(c)
+print("c=",c)
+a.extend(b)
+print(a)

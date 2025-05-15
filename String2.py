@@ -3,7 +3,7 @@ from collections import Counter
 
 a="Cricket is the famous game. Cricket help me to be physical fit and famous"
 
-pattern=r't\w*e\b'
+pattern=r'f\w*t\b'
 
 word=re.findall(pattern,a)
 print(word)
@@ -11,7 +11,7 @@ print(word)
 fr=Counter(a)
 print(fr)
 
-Char_m=fr.get("m")
+Char_m=fr.get(" ")
 print(Char_m)
 
 Min=min(fr,key=fr.get)

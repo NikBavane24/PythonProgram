@@ -12,3 +12,9 @@ for i in a:
     rev.insert(0,i)
 
 print(rev)
+
+b=[]
+for i in a:
+    b=i+b
+
+print(b)

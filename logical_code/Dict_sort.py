@@ -7,3 +7,5 @@ print(b)
 
 c=sorted(a.values())
 print(c)
+
+print(sorted(a,key=a.get))

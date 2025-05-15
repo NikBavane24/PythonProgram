@@ -8,17 +8,17 @@ print(type(h),h)
 
 
 c=list(sorted(set(a) & set(b)))
-print(c)
+print("c=",c)
 
 d=list(sorted(set(a) | set(b)))
-print(d)
+print("d=",d)
 
 
-e=list(set(a) - set(b))
-print(e)
+e=sorted(list(set(a) - set(b)))
+print("e=",e)
 
-f=list(set(b) - set(a))
-print(f)
+f=sorted(list(set(b) - set(a)))
+print("f=",f)
 
-g=list(set(a) ^ set(b))
-print(g)
+g=sorted(list(set(a) ^ set(b)))
+print("g=",g)

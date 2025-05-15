@@ -1,6 +1,4 @@
 import Super_keyword
-
-
 class Parent:
     def Parent1(self):
         print("Parent class implementation")
@@ -17,8 +15,3 @@ class Child(Parent):
 o2=Child()
 o2.child1()
 o2.Parent1()
-
-
-
-
-

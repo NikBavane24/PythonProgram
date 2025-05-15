@@ -1,8 +1,8 @@
 
 
 a="madaM"
-a=a.lower()
-
+#a=a.lower()
+print(a)
 b=""
 
 for i in a:

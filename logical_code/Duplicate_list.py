@@ -4,6 +4,7 @@ a = [1, 2, 3, 1, 2, 4, 5, 6, 5]
 
 # Initialize an empty set to store seen elements
 s = set()
+print("s=",s)
 print(set(a))
 
 # List to store duplicates

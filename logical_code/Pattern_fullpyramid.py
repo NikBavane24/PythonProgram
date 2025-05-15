@@ -1,6 +1,6 @@
 
 
-n=int(input("Number of roes required for triangle"))
+n=int(input("Number of rows required for triangle"))
 
 for i in range (1,n+1):
 

@@ -1,13 +1,11 @@
-
+from collections import Counter
 
 s="Cricket is the famous game. Cricket help me to be physical fit and famous"
+freq=Counter(s)
+print(freq)
 
-freq={}
+max_ch = max(freq, key=freq.get)
+print("Max charcter=",max_ch)
 
-for char in s:
-    freq[char]=freq.get(char,0)+1
-    print(freq)
-
-max_Ch=max(freq)
-
-print(max_Ch)
+char_C= freq.get("C")
+print("Frequency of C=",char_C)

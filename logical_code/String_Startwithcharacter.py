@@ -6,7 +6,7 @@ b=a.lower().split()
 
 check="e"
 
-c=r'p\w*\b'
+c=r'e\w*\b'
 d=re.findall(c,a)
 print(d)
 

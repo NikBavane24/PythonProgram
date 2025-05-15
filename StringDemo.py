@@ -1,6 +1,6 @@
 str="Shaurya Bavane"
 str1="is good boy"
-str2="Shaurya1"
+str2="Shaurya"
 str3="  Great  "
 
 print(str[8])             #B

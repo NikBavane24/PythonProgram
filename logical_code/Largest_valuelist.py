@@ -10,3 +10,5 @@ for i in list1:
         a.insert(0,i)
 
 print("Maximum number in list =",a[0])
+
+print(max(list1))

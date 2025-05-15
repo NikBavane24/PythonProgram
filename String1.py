@@ -10,10 +10,10 @@ for i in b:
     if i=="_":
         c+=1
 
-print("Character c comes this much times=",c)
+print("Character _ comes this much times=",c)
 
 d=a.split()
-e=a[1]
+e=a[0]
 for i in d:
     if len(i)>len(e):
         e=i
