@@ -7,4 +7,4 @@ def Salary(basic):
     total_sal = basic + DA + HRA
     print(total_sal)
 
-Salary(20000)
+Salary(50000)
