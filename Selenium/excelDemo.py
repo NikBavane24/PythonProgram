@@ -2,8 +2,8 @@ import openpyxl
 
 book=openpyxl.load_workbook("C:\\Jmeter\\Book1.xlsx")
 sheet1=book.active
-Fname=sheet1.cell(row=1,column=2)
-print(Fname.value)
+f_name=sheet1.cell(row=1,column=2)
+print(f_name.value)
 Dict={}
 #sheet1.cell(row=2,column=2).value="Rahul"
 print(sheet1.cell(row=2,column=2).value)

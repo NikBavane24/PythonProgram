@@ -3,8 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.devtools.v128.fed_cm import click_dialog_button
-from selenium.webdriver.support.select import Select
+
 
 #driver = webdriver.Chrome()
 #driver = webdriver.Firefox()

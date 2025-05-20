@@ -27,7 +27,4 @@ driver.find_element(By.CSS_SELECTOR,"input[value='Purchase']").click()
 Msg=driver.find_element(By.CSS_SELECTOR,"div[class*='alert']").text
 
 assert "Success! Thank you!" in Msg
-
-
-
 time.sleep(5)

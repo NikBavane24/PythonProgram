@@ -14,7 +14,7 @@ driver.find_element(By.ID,'downloadButton').click()
 
 
 file_upload=driver.find_element(By.CSS_SELECTOR,"input[type='file']")
-file_path="C:\\Users\\nikhil.bavane\\Downloads\\download.xlsx"
+file_path="D:\\download.xlsx"
 file_upload.send_keys(file_path)
 
 locator=(By.CSS_SELECTOR,".Toastify__toast-body div:nth-child(2")
