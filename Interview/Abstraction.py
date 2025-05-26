@@ -6,11 +6,11 @@ class Animal(ABC):  # Abstract Base Class
         pass
 class Dog(Animal):
     def make_sound(self):
-        print("Bark")
+        print("Dog sound = Bark")
 
 class Cat(Animal):
     def make_sound(self):
-        print("Meow")
+        print("Cat sound = Meow")
 d = Dog()
 d.make_sound()  # Output: Bark
 

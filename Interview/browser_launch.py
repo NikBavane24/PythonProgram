@@ -18,6 +18,7 @@ Title=driver.title
 print(Title)
 driver.refresh()
 driver.forward()
+
 #driver.find_element(By.XPATH,"(//input[@value='Google Search'])[2]").send_keys(Keys.ENTER)
 time.sleep(5)
 driver.close()
