@@ -7,6 +7,6 @@ b=list(("".join(a)).replace(",",""))
 
 print(b,type(b))
 b.reverse()
-
+print(b)
 
 

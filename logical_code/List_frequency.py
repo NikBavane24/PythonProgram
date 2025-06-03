@@ -15,3 +15,5 @@ print(min_count)
 
 count1=frequ.get(1)
 print("Frequency of 1=",count1)
+print(frequ.get(1))
+print(frequ.get(3))

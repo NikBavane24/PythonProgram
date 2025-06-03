@@ -6,9 +6,11 @@ a.sort()
 print("Smallest number in list =",a[0])
 
 smallest=a[0]
+small=[]
 
 for val in a:
-    if val<smallest:
-        smallest=val
+    if val != smallest:
+        if val<smallest:
+            small=val
 
-print("Smallest number in list =",smallest)
+print("Smallest number in list =",small)

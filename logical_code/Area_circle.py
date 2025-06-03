@@ -1,7 +1,14 @@
 import math
 
-r=float(input("Redius of circle is ="))
-pi=math.pi
 
-Area_Circle=pi*r*r
-print("Area of circle=",Area_Circle)
+class Circle:
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        pi = math.pi
+        print(pi * self.r * self.r)
+
+
+c1 = Circle(10)
+c1.area()

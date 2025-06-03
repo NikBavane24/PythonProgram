@@ -8,13 +8,15 @@ c=a.count(19)
 print(c)
 
 count=0
-
+count1=0
 for i in a:
     if i==13:
         count+=1
-
+for i in a:
+    if i==19:
+        count1+=1
 print("Count of number 13=",count)
 
 
-print("Count of number 19=",a.count(19))
+print("Count of number 19=",count1)
 

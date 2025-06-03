@@ -1,6 +1,7 @@
+class react:
+    def area_reactangle(self,a,b):
+        area = a * b
+        print(area)
 
-def area_reactangle(a,b):
-    area = a*b
-    print(area)
-
-area_reactangle(10,20)
+r=react()
+r.area_reactangle(10,20)

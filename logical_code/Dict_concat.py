@@ -16,4 +16,4 @@ print(data_list)
 
 # using sorted and itemgetter to print list sorted by age
 print("The list printed sorting by name: ")
-print(sorted(data_list, key=itemgetter('name')))
+print(sorted(data_list, key=itemgetter('age')))

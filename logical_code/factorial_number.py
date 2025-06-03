@@ -1,7 +1,7 @@
 
 
 
-number=10
+number=6
 
 factorial=1
 

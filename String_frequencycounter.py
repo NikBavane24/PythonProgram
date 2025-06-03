@@ -5,7 +5,7 @@ s = "hello world"
 
 # Count the frequency of characters
 frequency = Counter(s)
-print(frequency)
+print("frequency=",frequency)
 
 # Get the character with the maximum frequency
 max_char = max(frequency, key=frequency.get)

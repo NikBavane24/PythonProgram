@@ -15,6 +15,6 @@ print(rev)
 
 b=[]
 for i in a:
-    b=i+b
+    b.insert(0,i)
 
 print(b)

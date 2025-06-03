@@ -26,3 +26,15 @@ def method(a,b):
     j = a/b
     print('Division=', j)
 method(200,100)
+print("-----------------------------------------------")
+class add:
+
+    def __init__(self):
+        print("Making an addition")
+
+    def addition(self,a,b):
+        c=a+b
+        print("c=",c)
+
+a=add()
+a.addition(100,200)

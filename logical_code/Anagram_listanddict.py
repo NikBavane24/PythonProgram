@@ -15,3 +15,5 @@ for word in a:
 
 res = list(dict.values())
 print(res)
+print(dict)
+print(dict.items())

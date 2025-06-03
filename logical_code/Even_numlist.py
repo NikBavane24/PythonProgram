@@ -15,3 +15,15 @@ for i in a:
 
 print("Even number list=",b)
 print("Odd number list=",c)
+
+
+even_no=[]
+odd_no=[]
+for i in range(0,100):
+
+    if i%2==0:
+        even_no.append(i)
+    else:
+        odd_no.append(i)
+print("even_no=",even_no)
+print("odd_no=",odd_no)

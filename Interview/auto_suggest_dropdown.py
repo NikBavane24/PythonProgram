@@ -16,7 +16,7 @@ wait.until(lambda driver:driver.find_element(By.XPATH,"//li[@class='ui-menu-item
 Dropdown_atoms=driver.find_elements(By.XPATH,"//li[@class='ui-menu-item']")
 for Dropdown_atom in Dropdown_atoms:
     print(Dropdown_atom.text)
-    if Dropdown_atom.text=="India":
+    if Dropdown_atom.text=="Indonesia":
         Dropdown_atom.click()
         break
 time.sleep(5)
