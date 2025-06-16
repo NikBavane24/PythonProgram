@@ -4,7 +4,7 @@ import pytest
 from selenium import webdriver
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture(scope="function")
 def setup(request):
     Ch = webdriver.ChromeOptions()
     Ch.add_argument("--start-maximized")
@@ -18,4 +18,5 @@ def setup(request):
     yield
     driver.close()
 
-setup()
+def test_example(setup):  # setup fixture is automatically called
+    print("Running test")

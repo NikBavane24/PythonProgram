@@ -6,4 +6,4 @@ print("Size of Tuple :"+ str(sys.getsizeof(Tuple1)))
 
 list1=list(Tuple1)
 length=len(list1)
-print(length)
+print("length of tuple=",length)

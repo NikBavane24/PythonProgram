@@ -5,8 +5,10 @@ def product(a, b):
 
 
 
-def product(a, b, c):
+def product(a, b=0, c=0):
     p = a * b*c
     print(p)
 
 product(4, 5, 5)
+product(4)
+product(4,5)

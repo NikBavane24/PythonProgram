@@ -10,6 +10,6 @@ print(str+" "+str1)       #concatenation = Shaurya Bavane is good boy
 print(str2 in str)        #false
 var=str.split(" ")
 print(var[0])
-print(str3.split())
+print(str3.strip())
 print(str3.lstrip())
 print(str3.rstrip())

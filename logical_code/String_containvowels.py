@@ -1,7 +1,7 @@
 
 
 
-s = "Geeksforyouraim"
+s = "Geeksforyouriam"
 v = 'aeiou'
 s=s.lower()
 

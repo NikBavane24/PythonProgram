@@ -12,3 +12,10 @@ for i in list1:
 print("Maximum number in list =",a[0])
 
 print(max(list1))
+
+b=list1[0]
+for i in list1:
+    if i>b:
+        b=i
+
+print(b)

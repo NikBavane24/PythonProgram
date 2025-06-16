@@ -1,9 +1,9 @@
 
 
 
-number=6
+number=10
 
-factorial=1
+factorial=2
 
 for i in range(factorial,number+1):
     factorial*=i

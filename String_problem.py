@@ -1,6 +1,6 @@
 import re
 
-a="A paragraph is a group of sentences that develops a single 123456789 idea It can !@#$5%^6 be a section of a longer piece of writing or it can be a short composition by itself"
+a="A paragraph is a group of sentences that develops a single 123456789 idea It can !@#$5%^6"
 
 b=len(a)
 print(b)

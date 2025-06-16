@@ -18,3 +18,6 @@ for n in a:
 
 print(dup)
 print(s)
+
+b=set(a)
+print("b=",b)

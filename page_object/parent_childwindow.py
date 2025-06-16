@@ -13,5 +13,4 @@ print(window_open)
 driver.switch_to.window(window_open[-1])
 driver.find_element(By.ID,"APjFqb").send_keys("ABC")
 driver.switch_to.window(window_open[0])
-
 time.sleep(5)
